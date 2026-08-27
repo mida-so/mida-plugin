@@ -1,6 +1,6 @@
 {
-  "name": "mida",
-  "version": "1.0.0",
+  "name": "mida-abtesting",
+  "version": "1.0.1",
   "description": "Run A/B tests and personalizations on your own site with Mida. Create experiments and goals, read results with Mida's statistics, conclude tests, and serve winners, via the Mida MCP server and skills.",
   "author": {
     "name": "Mida",

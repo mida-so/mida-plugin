@@ -1,6 +1,6 @@
 {
-  "name": "mida",
-  "version": "1.0.0",
+  "name": "mida-abtesting",
+  "version": "1.0.1",
   "description": "Run A/B tests and personalizations on your own website with Mida. Create experiments and goals, read results, conclude tests, and serve winners.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
