@@ -41,7 +41,7 @@ gemini extensions install https://github.com/mida-so/mida-plugin
 
 ```
 codex plugin marketplace add mida-so/mida-plugin
-codex plugin install mida-abtesting
+codex plugin install mida-so
 ```
 
 **Any MCP client**, point it at the hosted server:
@@ -53,7 +53,7 @@ codex plugin install mida-abtesting
 Per-client setup instructions live at [mida.so/mcp](https://www.mida.so/mcp).
 
 Listings for Grok Build and Cursor are in review. Once they land, it's
-`/plugin install mida-abtesting` in either one.
+`/plugin install mida-so` in either one.
 
 On first use your client opens a browser to sign in to Mida with OAuth. There is
 no API key to paste and nothing is written to your machine.
