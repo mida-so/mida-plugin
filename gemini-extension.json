@@ -1,0 +1,12 @@
+{
+  "name": "mida",
+  "version": "1.0.0",
+  "description": "Run A/B tests and personalizations on your own website with Mida. Create experiments and goals, read results, conclude tests, and serve winners.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "mida": {
+      "httpUrl": "https://mcp.mida.so/mcp",
+      "timeout": 30000
+    }
+  }
+}

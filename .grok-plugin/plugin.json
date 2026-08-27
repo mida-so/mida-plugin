@@ -1,14 +1,14 @@
 {
   "name": "mida",
   "version": "1.0.0",
-  "description": "Run A/B tests and personalizations on your own site with Mida. Create experiments and goals, read results with Mida's statistics, conclude tests, and serve winners — via the Mida MCP server and skills.",
+  "description": "Run A/B tests and personalizations on your own site with Mida. Create experiments and goals, read results with Mida's statistics, conclude tests, and serve winners, via the Mida MCP server and skills.",
   "author": {
     "name": "Mida",
     "url": "https://www.mida.so"
   },
   "homepage": "https://www.mida.so",
-  "repository": "https://github.com/mida-so/mida-grok-plugin",
+  "repository": "https://github.com/mida-so/mida-plugin",
   "license": "MIT",
-  "keywords": ["mida", "ab-testing", "experimentation", "personalization", "cro", "mcp"],
+  "keywords": ["mida", "ab-testing", "experimentation", "personalization", "cro", "conversion-rate-optimization", "mcp"],
   "logo": "assets/logo.svg"
 }
