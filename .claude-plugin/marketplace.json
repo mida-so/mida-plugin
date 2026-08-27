@@ -1,0 +1,18 @@
+{
+  "name": "mida",
+  "owner": {
+    "name": "Mida",
+    "url": "https://www.mida.so"
+  },
+  "plugins": [
+    {
+      "name": "mida-so",
+      "source": "./",
+      "description": "Run A/B tests and personalizations on your own website with Mida. Create experiments and goals, preview a variant before it goes live, read results with Mida's statistics, conclude a test, and serve the winner.",
+      "author": {
+        "name": "Mida"
+      },
+      "homepage": "https://www.mida.so/mcp"
+    }
+  ]
+}

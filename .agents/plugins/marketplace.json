@@ -1,0 +1,20 @@
+{
+  "name": "mida",
+  "interface": {
+    "displayName": "Mida"
+  },
+  "plugins": [
+    {
+      "name": "mida-so",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data Analytics"
+    }
+  ]
+}

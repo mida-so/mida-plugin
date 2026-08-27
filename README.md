@@ -59,6 +59,10 @@ claude plugin install mida-so
 
 Per-client setup instructions live at [mida.so/mcp](https://www.mida.so/mcp).
 
+The `marketplace add` commands work because this repo is its own single-plugin
+marketplace: it carries `.claude-plugin/marketplace.json` for Claude and
+`.agents/plugins/marketplace.json` for Codex alongside the per-client manifests.
+
 Listings for Grok Build and Cursor are in review. Once they land, it's
 `/plugin install mida-so` in either one.
 
