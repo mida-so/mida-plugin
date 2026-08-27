@@ -1,0 +1,37 @@
+{
+  "name": "mida",
+  "version": "1.0.0",
+  "description": "Run A/B tests and personalizations on your own site with Mida. Create experiments and goals, read results, conclude tests, and serve winners.",
+  "author": {
+    "name": "Mida"
+  },
+  "homepage": "https://www.mida.so/mcp",
+  "repository": "https://github.com/mida-so/mida-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mida",
+    "ab-testing",
+    "experimentation",
+    "personalization",
+    "cro",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mida",
+    "shortDescription": "Run A/B tests and personalizations on your own site.",
+    "longDescription": "Mida is an A/B testing and personalization platform. A small JavaScript tag on your site puts visitors into variants and reports conversions. This plugin connects to your Mida account so you can build a test, launch it, read the result, conclude it, and roll the winner out without switching tabs.",
+    "developerName": "Mida",
+    "category": "Data Analytics",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.mida.so",
+    "privacyPolicyURL": "https://www.mida.so/privacy-policy",
+    "termsOfServiceURL": "https://www.mida.so/terms",
+    "defaultPrompt": [
+      "You help the user run A/B tests and personalizations on their own website with Mida. Select the right Mida project before anything else, since the session opens on a default project that is often not the one the user means. Create tests as drafts and let the user launch them. When reading results, check whether the test has enough traffic to be worth calling before you report a winner."
+    ]
+  }
+}

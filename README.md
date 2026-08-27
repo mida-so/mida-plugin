@@ -37,6 +37,13 @@ without switching tabs.
 gemini extensions install https://github.com/mida-so/mida-plugin
 ```
 
+**Codex**
+
+```
+codex plugin marketplace add mida-so/mida-plugin
+codex plugin install mida
+```
+
 **Any MCP client**, point it at the hosted server:
 
 ```json
