@@ -43,6 +43,8 @@ gemini extensions install https://github.com/mida-so/mida-plugin
 { "mcpServers": { "mida": { "type": "http", "url": "https://mcp.mida.so/mcp" } } }
 ```
 
+Per-client setup instructions live at [mida.so/mcp](https://www.mida.so/mcp).
+
 Listings for Grok Build and Cursor are in review. Once they land, it's
 `/plugin install mida` in either one.
 

@@ -6,7 +6,7 @@
     "name": "Mida",
     "url": "https://www.mida.so"
   },
-  "homepage": "https://www.mida.so",
+  "homepage": "https://www.mida.so/mcp",
   "repository": "https://github.com/mida-so/mida-plugin",
   "license": "MIT",
   "keywords": ["mida", "ab-testing", "experimentation", "personalization", "cro", "conversion-rate-optimization", "mcp"],
