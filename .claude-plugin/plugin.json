@@ -1,0 +1,21 @@
+{
+  "name": "mida-so",
+  "version": "1.0.2",
+  "description": "Run A/B tests and personalizations on your own website with Mida. Create experiments and goals, generate preview URLs, read results with Mida's statistics, conclude tests, and serve winners. Two skills cover picking the right project, reading Bayesian vs. frequentist results, and the order of operations that keeps a test's data clean.",
+  "author": {
+    "name": "Mida",
+    "url": "https://www.mida.so"
+  },
+  "repository": "https://github.com/mida-so/mida-plugin",
+  "homepage": "https://www.mida.so/mcp",
+  "license": "MIT",
+  "keywords": [
+    "mida",
+    "ab-testing",
+    "experimentation",
+    "personalization",
+    "cro",
+    "conversion-rate-optimization",
+    "mcp"
+  ]
+}

@@ -44,6 +44,13 @@ codex plugin marketplace add mida-so/mida-plugin
 codex plugin install mida-so
 ```
 
+**Claude Code**
+
+```
+claude plugin marketplace add mida-so/mida-plugin
+claude plugin install mida-so
+```
+
 **Any MCP client**, point it at the hosted server:
 
 ```json
