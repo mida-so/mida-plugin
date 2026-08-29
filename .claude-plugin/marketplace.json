@@ -1,5 +1,6 @@
 {
   "name": "mida",
+  "description": "Mida's official plugin: run A/B tests and personalizations on your own website from your editor.",
   "owner": {
     "name": "Mida",
     "url": "https://www.mida.so"
