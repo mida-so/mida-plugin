@@ -73,7 +73,10 @@ mode here, and it is entirely avoidable.
 
 ## 6. Launch and leave it alone
 
-`update_experiment_status` starts delivery. Then:
+`update_experiment_status` starts delivery. It needs the user's go-ahead
+(`confirmation: {user_confirmed: true, reason}`), so ask before launching.
+Check the `Read back` block in the response says the test is live before you
+tell the user it is. Then:
 
 - **Do not read the result on day one.** Early numbers swing hard and reading
   them invites stopping on noise.

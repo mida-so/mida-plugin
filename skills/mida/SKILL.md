@@ -91,6 +91,20 @@ the user wants while they ship the change for real.
 winning copy to source. Deploy first and the control arm starts serving the new
 copy too. Both arms become identical and the rest of the data is noise.
 
+## Writes: confirm first, read back after
+
+**Confirm changes visitors will see.** Launching a test, taking a live one off,
+serving a winner, changing its rollout and stopping it all need
+`confirmation: {user_confirmed: true, reason}`. Deletes need
+`confirm_delete: "Delete experiment 36731"` with that exact id. Ask the user
+about that specific change first. The server refuses the call without it.
+
+**Never report a change you have not read back.** Each write returns a
+`Read back` block with what is actually saved. Tell the user those values, not
+the ones you sent. `READ-BACK MISMATCH` means the API returned success but the
+row says something else: the write was applied, so do not repeat it. Say what
+is saved and fix the field that differs.
+
 ## Goals and events
 
 A test measures nothing until a goal is attached. `list_goals` /`create_goal`
