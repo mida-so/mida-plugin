@@ -1,6 +1,6 @@
 {
   "name": "mida-so",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Run A/B tests and personalizations on your own site with Mida. Create experiments and goals, read results, conclude tests, and serve winners.",
   "author": {
     "name": "Mida"

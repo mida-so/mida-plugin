@@ -94,7 +94,8 @@ copy too. Both arms become identical and the rest of the data is noise.
 ## Writes: confirm first, read back after
 
 **Confirm changes visitors will see.** Launching a test, taking a live one off,
-serving a winner, changing its rollout and stopping it all need
+serving a winner, changing its rollout, stopping it, and changing Global
+Custom Code (it runs on every page) all need
 `confirmation: {user_confirmed: true, reason}`. Deletes need
 `confirm_delete: "Delete experiment 36731"` with that exact id. Ask the user
 about that specific change first. The server refuses the call without it.
