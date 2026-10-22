@@ -9,6 +9,8 @@
   "repository": "https://github.com/mida-so/mida-plugin",
   "homepage": "https://www.mida.so/mcp",
   "license": "MIT",
+  "icon": "./assets/logo.svg",
+  "privacyPolicyUrl": "https://www.mida.so/privacy-policy",
   "keywords": [
     "mida",
     "ab-testing",
