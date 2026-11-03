@@ -31,6 +31,10 @@ without switching tabs.
 
 ## Install
 
+**Claude (claude.ai and Claude Desktop)**: add [Mida A/B Testing](https://claude.ai/directory/mida-a-b-testing) from the
+Claude connector directory. Claude Code picks it up too when you're signed in
+with the same Claude account.
+
 **Gemini CLI**
 
 ```
@@ -48,7 +52,7 @@ codex plugin install mida-so
 
 ```
 claude plugin marketplace add mida-so/mida-plugin
-claude plugin install mida-so
+claude plugin install mida-so@mida
 ```
 
 **Any MCP client**, point it at the hosted server:
