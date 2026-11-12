@@ -90,6 +90,7 @@ campaigns, project configuration, and team access.
 |---|---|
 | `mida` | Entry point: picking the right project, reading Bayesian vs. frequentist results, and the order of operations for concluding a test and serving a winner |
 | `mida-experiments` | The workflow: hypothesis, variants, goal, preview, launch, then calling the result |
+| `mida-setup` | Starting from nothing in a codebase: create the account with one emailed code, install the tag or a server-side SDK, confirm data arrives, and get a first draft ready |
 
 The skills are here because a few Mida behaviours are easy to get wrong from the
 tool schemas alone. An experiment's display number is not its API id. A
