@@ -52,9 +52,12 @@ you the key and the project key. Store both as secrets (step 2).
 
    The response has `api_key` (shown once) and `project_key`.
 
-In a Node project, `npx mida-node init --email person@example.com --accept-terms`
-(mida-node 1.2.0 or later) does steps 3 and 4 and writes the keys to `.env`.
-`mida register` and `mida claim --code` are the same steps without a prompt.
+If Node 18 or later is available, `npx mida-cli register --email person@example.com --accept-terms`
+followed by `npx mida-cli claim --code 123456` does steps 3 and 4 and writes the keys to
+`.env`. `npx mida-cli doctor --wait` and `npx mida-cli check <test_id>` wrap the install-health
+and pre-publish checks below. From mida-cli 1.1.0, every API endpoint is also a command:
+`npx mida-cli commands` lists them, and calls that reach visitors need `--confirm`. The CLI
+works in any project, not only Node ones.
 
 If no email arrives within a few minutes, the address most likely has an
 account already. Mida gives the same answer either way, on purpose. Send them
