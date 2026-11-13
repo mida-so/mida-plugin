@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Mida" width="220">
+  <img src="assets/logo.png" alt="Mida" width="220">
 </p>
 
 <h3 align="center">Test everything. Personalize everyone.</h3>

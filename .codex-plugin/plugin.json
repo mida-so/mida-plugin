@@ -1,6 +1,6 @@
 {
   "name": "mida-so",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Run A/B tests and personalizations on your own site with Mida. Create experiments and goals, read results, conclude tests, and serve winners.",
   "author": {
     "name": "Mida"
@@ -37,7 +37,7 @@
       "Create a test for a shorter signup form and preview variant B",
       "Has the homepage hero test reached significance yet?"
     ],
-    "logo": "./assets/icon.svg",
-    "composerIcon": "./assets/icon.svg"
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
   }
 }
